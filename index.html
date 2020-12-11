@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+    <head>
+        <title>Quiz App</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="style/main.css">
+        <script type="module" src="out/main.js" defer></script>
+    </head>
+    <body>
+        <div class="container d-flex flex-column" id="questionContainer">
+            <div class="col-12 my-5 p-5">
+                <div class="p-4 mb-3 background-white col-12 rounded-border">
+                    <div class="row large-font">
+                        <div class="col-1" id="questionNumber">
+                            Question 1
+                        </div>
+                        <div class="col-11" id="question">
+                            This is a question
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 ">
+                    <div class="list-group">
+                        <div class="row">
+                            <a href="#" class="list-group-item list-group-item-action col-6 rounded-border" id="option1Element" option=1>
+                                <div class="row">
+                                    <div class="col-2">
+                                        1
+                                    </div>
+                                    <div class="col-10" id="option1"> 
+                                        Option
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action col-6 rounded-border" id="option2Element" option=2>
+                                <div class="row">
+                                    <div class="col-2">
+                                        2
+                                    </div>
+                                    <div class="col-10" id="option2">
+                                        Option
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action col-6 rounded-border" id="option3Element" option=3>
+                                <div class="row">
+                                    <div class="col-2">
+                                        3
+                                    </div>
+                                    <div class="col-10" id="option3">
+                                        Option
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="list-group-item list-group-item-action col-6 rounded-border" id="option4Element" option=4>
+                                <div class="row">
+                                    <div class="col-2">
+                                        4
+                                    </div>
+                                    <div class="col-10" id="option4">
+                                        Option
+                                    </div>
+                                </div>
+                            </a>
+                        </div>            
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-none container border-black p-4 m-5" id="resultContainer">
+            <div class="d-flex flex-column align-items-center larger-font">
+                <div>
+                    Your total score is
+                </div>
+                <div id="score">
+                    
+                </div>
+            </div>
+        </div>
+
+        
+    </body>
