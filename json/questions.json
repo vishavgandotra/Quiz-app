@@ -1,0 +1,34 @@
+{
+    "Questions" : [
+        {
+            "question" : "Which of the following companies has developed and designed TypeScript?",
+            "options" : [
+                "Amazon",
+                "TypeScript",
+                "Microsoft",
+                "Oracle"
+            ],
+            "correct" : 3
+        },
+        {
+            "question" : "What is the typing principle of typescript?",
+            "options" : [
+                "Gradual",
+                "Duck",
+                "Dynamic",
+                "All of above"
+            ],
+            "correct" : 2
+        },
+        {
+            "question" : "Which of the followings are primitive types supported in TypeScript?",
+            "options" : [
+                "string",
+                "number",
+                "boolean",
+                "All of above"
+            ],
+            "correct" : 4
+        }
+    ]
+}
