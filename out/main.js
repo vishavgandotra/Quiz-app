@@ -1,6 +1,6 @@
 import { QuestionHandler } from "./QuestionHandler.js";
 let template;
-fetch("../../json/questions.json")
+fetch("./json/questions.json")
     .then((response) => response.json())
     .catch(() => alert("Please check your connection"))
     .then((questions) => new QuestionHandler(questions))
